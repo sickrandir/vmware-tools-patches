@@ -18,7 +18,7 @@ elif [[ -n "$(type -P pacman )" ]]; then
 fi
 
 # This is fragile, it needs updated depending on the branch/fork you want to run
-git clone https://github.com/rasa/vmware-tools-patches.git
+git clone https://github.com/sickrandir/vmware-tools-patches.git
 cd vmware-tools-patches
 
 # Sourcing the setup script gets the dependencies we really need,
